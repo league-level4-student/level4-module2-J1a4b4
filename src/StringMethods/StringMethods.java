@@ -110,15 +110,25 @@ public class StringMethods {
 	
 	// Return the sum of all numerical digits in the String
 	public static int numeralSum(String s) {
-		
+		int counter = 0;
+		for (int i = 0; i < s.length() - 1; i++) {
+			if (s.charAt(i) == '1') {
+				counter = counter + 1;
+			}
+		}
 		return 0;
 	}
 	
 	
 	// Return the number of times String substring appears in String s
 	public static int substringCount(String s, String substring) {
-		
-		return 0;
+		int counter = 0;
+		for (int i = 0; i < s.length() - substring.length() + 1; i++) {
+			if (s.charAt(i) == substring.charAt(0)) {
+				
+			}
+		}
+		return counter;
 	}
 
 	// Call Utilities.encrypt to encrypt String s
