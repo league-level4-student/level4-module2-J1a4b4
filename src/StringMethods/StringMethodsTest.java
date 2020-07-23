@@ -71,7 +71,6 @@ class StringMethodsTest {
 		assertEquals(7, StringMethods.distance("subsubsubsub", "ub"));
 		assertEquals(28, StringMethods.distance("The League The Le ague TheLeag ue The League", "League"));
 		assertEquals(0, StringMethods.distance("bb", "b"));
-		
 	}
 	
 	@Test
